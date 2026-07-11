@@ -10,7 +10,7 @@ class Program
         int score = int.Parse(userInput);
         
         string letter = "";
-        string sign= "";
+        string sign = "";
         
         if (score >= 90)
         {
