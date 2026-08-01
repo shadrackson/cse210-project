@@ -15,21 +15,21 @@ class Program
         videos.Add(video1);
 
         Video video2 = new Video("Top 10 C# Tips", "Programming Hub", 1500);
-        video1.AddComment(new Comment("Davidson", "Very informative!"));
-        video1.AddComment(new Comment("Esther", "I loved the examples."));
-        video1.AddComment(new Comment("Frazzgaed", "Excellent summary."));
+        video2.AddComment(new Comment("Davidson", "Very informative!"));
+        video2.AddComment(new Comment("Esther", "I loved the examples."));
+        video2.AddComment(new Comment("Frazzgaed", "Excellent summary."));
         videos.Add(video2);
 
         Video video3 = new Video("Programming valley", "Freecode Camp", 1400);
-        video1.AddComment(new Comment("Getrude", "Now abstraction makes sense"));
-        video1.AddComment(new Comment("Harriet", "Please make another video."));
-        video1.AddComment(new Comment("Ivan", "Amazing lesson."));
+        video3.AddComment(new Comment("Getrude", "Now abstraction makes sense"));
+        video3.AddComment(new Comment("Harriet", "Please make another video."));
+        video3.AddComment(new Comment("Ivan", "Amazing lesson."));
         videos.Add(video3);
 
         Video video4 = new Video("Learn Software Development", "BYU Pathway", 1600);
-        video1.AddComment(new Comment("Jackson", "Very inspiring!"));
-        video1.AddComment(new Comment("Kelly Price", "Best learning experience."));
-        video1.AddComment(new Comment("Leonardo", "This is the place to be."));
+        video4.AddComment(new Comment("Jackson", "Very inspiring!"));
+        video4.AddComment(new Comment("Kelly Price", "Best learning experience."));
+        video4.AddComment(new Comment("Leonardo", "This is the place to be."));
         videos.Add(video4);
 
         // Display everything
