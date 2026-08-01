@@ -9,7 +9,7 @@ public class Product
     private int _quantity;
 
  // Constructors
- public product(string name, string productId, double price, int quantity)
+ public Product(string name, string productId, double price, int quantity)
    {
      _name = name;
      _productId = productId;
