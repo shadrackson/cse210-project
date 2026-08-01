@@ -49,7 +49,7 @@ public class Video
       return _length;
     }
 
-    public LIst<Comment> GetComments()
+    public List<Comment> GetComments()
     {
       return _comments;
     }
