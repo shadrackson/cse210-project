@@ -1,6 +1,5 @@
 // I am using GitHub for the code since my VS Code keeps hanging
-
-using System.Collection.Generic;
+ 
 
 // Class
 public class Video
