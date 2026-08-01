@@ -2,7 +2,7 @@
 // I have opted for github spaces instead
 
 // Class
-public class customer
+public class Customer
 {
   private string _name;
   private Address _address;
